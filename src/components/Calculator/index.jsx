@@ -7,7 +7,6 @@ export const Calculator = () => {
     const [oldNum, setoldNum] = useState();
     const [numOld, setnumOld] = useState();
     const [operator, setOperator] = useState();
-    const [res, setRes] = useState();
 
     const handleClick = (e) => {
         if (num === 0) {
